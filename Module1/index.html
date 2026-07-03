@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- The <!DOCTYPE html> declaration defines the document type and version of HTML. It is necessary to tell the browser to render the page in standards mode. -->
+
+<html>
+<!-- The <html> tag is the root element of an HTML document. It wraps all the content on the page. -->
+
+<head>
+    <!-- The <head> tag contains metadata about the document, such as its title, character set, and links to stylesheets or scripts. -->
+    <meta charset="UTF-8">
+    <!-- The <meta> tag specifies the character encoding for the document. UTF-8 supports most characters and is widely used. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The <meta> tag with viewport settings ensures the page is responsive and scales properly on different devices. -->
+    <title>Document</title>
+    <!-- The <title> tag sets the title of the document, which appears in the browser tab. -->
+</head>
+
+<body>
+    <!-- The <body> tag contains the visible content of the HTML document. -->
+
+    <header>
+        <!-- The <header> tag represents introductory content, such as a logo or navigation links. -->
+        <h1>Welcome to My Website</h1>
+        <!-- The <h1> tag defines the main heading of the page. -->
+    </header>
+
+    <nav>
+        <!-- The <nav> tag defines navigation links for the website. -->
+        <ul>
+            <!-- The <ul> tag creates an unordered list. -->
+            <li><a href="#home">Home</a></li>
+            <!-- The <li> tag defines a list item, and the <a> tag creates a hyperlink. -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <audio controls>
+        <!-- The <audio> tag is used to embed audio content. The "controls" attribute adds playback controls. -->
+        <source src="audio.mp3" type="audio/mpeg">
+        <!-- The <source> tag specifies the audio file and its format. -->
+        Your browser does not support the audio tag.
+        <!-- This text is displayed if the browser does not support the <audio> tag. -->
+    </audio></audio>
+
+    <main>
+        <!-- The <main> tag represents the main content of the document. -->
+        <section id="home">
+            <!-- The <section> tag defines a thematic grouping of content. -->
+            <h2>Home Section</h2>
+            <!-- The <h2> tag defines a subheading. -->
+            <p>This is the home section of the website.</p>
+            <!-- The <p> tag defines a paragraph of text. -->
+        </section>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>This section provides information about the website.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <p>Feel free to reach out via the contact form below.</p>
+            <form>
+                <!-- The <form> tag is used to collect user input. -->
+                <label for="name">Name:</label>
+                <!-- The <label> tag defines a label for an input element. -->
+                <input type="text" id="name" name="name">
+                <!-- The <input> tag is used to create an input field. -->
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <button type="submit">Submit</button>
+                <!-- The <button> tag creates a clickable button. -->
+            </form>
+        </section>
+
+        <section id="video">
+            <!-- The <section> tag is used to group the video content. -->
+            <h2>Video Section</h2>
+            <!-- The <h2> tag defines a subheading. -->
+            <video controls>
+                <!-- The <video> tag is used to embed a video. The "controls" attribute adds playback controls. -->
+                <source src="video.mp4" type="video/mp4">
+                <!-- The <source> tag specifies the video file and its format. -->
+                Your browser does not support the video tag.
+                <!-- This text is displayed if the browser does not support the <video> tag. -->
+            </video>
+        </section>
+
+        <section id="other">
+            <!-- The <section> tag is used to group other content. -->
+            <h2>Other Section</h2>
+            <p>This section demonstrates additional tags.</p>
+            <figure>
+                <!-- The <figure> tag is used to group media content, such as images or diagrams. -->
+                <img src="image.jpg" alt="Sample Image">
+                <!-- The <img> tag embeds an image, and the "alt" attribute provides alternative text. -->
+                <figcaption>Sample Image Caption</figcaption>
+                <!-- The <figcaption> tag provides a caption for the <figure>. -->
+            </figure>
+            <details>
+                <!-- The <details> tag creates a collapsible section. -->
+                <summary>More Information</summary>
+                <!-- The <summary> tag defines a summary for the collapsible content. -->
+                This is additional information that can be expanded or collapsed.
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <!-- The <footer> tag defines footer content, such as copyright information or links. -->
+        <p>&copy; 2023 My Website</p>
+        <!-- The &copy; entity is used to display the copyright symbol. -->
+    </footer>
+</body>
+
+</html>
