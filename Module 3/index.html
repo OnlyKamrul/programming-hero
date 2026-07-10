@@ -5,32 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css For Class</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
+ section {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 5px;
     }
-    p {
-        font-size: 16px;
-        line-height: 1.5;
+    #second-section {
+        background-color: #e0e0e0;
+        padding: 20px;
+        border-radius: 5px;
+        width: 50%
     }
-    a {
-        display: inline-block;
-        margin-top: 10px;
-        text-decoration: none;
-        color: #007BFF;
+    .second-section {
+        color: #f90303;
+        font-size: 1.5em;
     }
-    a:hover {
-        text-decoration: underline;
+
+
+    /* Tag section */
+    tag {
+        /* Styles for the tag */
     }
+    /* ID section */
+    #id { 
+        /* Styles for the ID */
+    }
+    /* Class section */
+    .class { 
+        /* Styles for the class */
+    }
+
+
+    ol, ul, .class1 {background-color: #f90303;
+  
+    }
+
+
+
     </style>
 </head>
 <body>
+
+    <ol>
+        <li class="class1"><a href="class1/index.html">Class 1</a></li>
+        <li><a href="class2/index.html">Class 2</a></li>
+        <li><a href="class3/index.html">Class 3</a></li>
+        <li><a href="class4/index.html">Class 4</a></li>
+        <li><a href="class5/index.html">Class 5</a></li>
+        <li><a href="class6/index.html">Class 6</a></li>
+    </ol>
     <p style="color: red;">This is the content of class2/index.html.</p>
     <p style="color: blue;">This is the content of class3/index.html.</p>
     <p style="color: green;">This is the content of class4/index.html.</p>
     <p style="color: purple;">This is the content of class5/index.html.</p>
     <p style="color: orange;">This is the content of class6/index.html.</p>
     <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <section>
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs: CSS</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+        </ul>
+    </section>
+    <section id="second-section">
+        <h2 class="second-section">Additional Resources</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs: CSS</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs: CSS</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+        </ul>
+    </section>
 
 </body>
 </html>
