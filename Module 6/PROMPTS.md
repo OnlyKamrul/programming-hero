@@ -1,0 +1,1 @@
+Create a modern Hackathon Schedule section for a DevConf 2026 landing page using only HTML and CSS. Include three cards (Day 1, Day 2, Day 3), each with a heading and four schedule items. The design should match a clean tech conference theme with subtle hover effects and responsive layout.
