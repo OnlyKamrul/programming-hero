@@ -46,3 +46,52 @@
 .btn:hover{
     background:#1d4ed8;
 }
+
+ /*Hero Section CSS*/
+
+.hero{
+    height:90vh;
+
+    background:
+        linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+        url("./assets/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.hero-content{
+    transform: translateY(-20px);
+    max-width:700px;
+    color:white;
+}
+.hero-content h1{
+    font-size:64px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+.hero-content span{
+    font-style:italic;
+}
+.hero-content p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+    color:#dddddd;
+}
+
+.hero .btn{
+    padding:16px 36px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
