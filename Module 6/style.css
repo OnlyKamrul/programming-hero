@@ -268,3 +268,43 @@ ul{
     text-align: center;
 }
 
+/*Hackathon Section Using Ai code just try do sonmeting*/
+
+.hackathon{
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.hackathon-cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.hackathon-card{
+    flex: 1;
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 30px;
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+.hackathon-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,.1);
+}
+
+.hackathon-card h3{
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+.hackathon-card ul{
+    padding-left: 20px;
+}
+
+.hackathon-card li{
+    margin-bottom: 12px;
+    color: #4b5563;
+}
