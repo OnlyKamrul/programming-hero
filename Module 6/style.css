@@ -221,6 +221,19 @@ ul{
     background:#0f172a;
     color:#fff;
 }
+.price-card ul{
+    margin-top: 24px;
+    padding-top: 24px;
+    padding-left: 20px;
+
+    border-top: 1px solid #e5e7eb;
+
+    flex-grow: 1;
+}
+
+.featured ul{
+    border-top: 1px solid rgba(255,255,255,.15);
+}
 
 .price-card h3{
     font-size:42px;
