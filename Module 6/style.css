@@ -10,6 +10,7 @@
 
 body{
     font-family:'Inter',sans-serif;
+    line-height:1.6;
 }
 
 a{
@@ -19,6 +20,12 @@ a{
 
 ul{
     list-style:none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*Navbar CSS*/
@@ -72,50 +79,57 @@ ul{
  /*Hero Section CSS*/
 
 .hero{
-    height:90vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     background:
-        linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
         url("./assets/banner.jpg");
 
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content{
-    transform: translateY(-20px);
-    max-width:700px;
-    color:white;
+    max-width: 850px;
+    color: #fff;
 }
+
 .hero-content h1{
-    font-size:64px;
-    font-weight:700;
-    margin-bottom:20px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 24px;
 }
+
 .hero-content span{
-    font-style:italic;
+    font-style: italic;
 }
+
 .hero-content p{
-    font-size:18px;
-    line-height:1.8;
-    margin-bottom:35px;
-    color:#dddddd;
+    max-width: 760px;
+    margin: 0 auto 45px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d1d5db;
 }
 
-.hero .btn{
-    padding:16px 36px;
+.hero-btn{
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    padding: 16px 36px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+.hero-btn:hover{
+    background: #1d4ed8;
 }
 
 /*Speakers Section*/
@@ -200,6 +214,7 @@ ul{
 
     display: flex;
     flex-direction: column;
+    transition:.3s;
 }
 
 .featured{
@@ -253,19 +268,18 @@ ul{
     color:#fff;
 }
 
-.price-card{
-    transition:.3s;
-}
-
 .price-card:hover{
     transform:translateY(-8px);
     box-shadow:0 12px 24px rgba(0,0,0,.1);
 }
 
-.btn,
-.outline-btn{
+.price-card .btn{
     display: block;
     text-align: center;
+}
+
+.navbar .btn{
+    display: inline-block;
 }
 
 /*Hackathon Section Using Ai code just try do sonmeting*/
@@ -307,4 +321,38 @@ ul{
 .hackathon-card li{
     margin-bottom: 12px;
     color: #4b5563;
+}
+
+
+/*Footer Section*/
+
+.footer{
+    background: #0f1d2d;
+    padding: 30px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a{
+    color: #94a3b8;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #ffffff;
 }
