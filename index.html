@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Hero Journey</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial,Helvetica,sans-serif;
+            background:linear-gradient(135deg,#0f172a,#1e293b);
+            color:#fff;
+            min-height:100vh;
+        }
+
+        .hero{
+            padding:90px 0;
+        }
+
+        .hero h1{
+            font-size:clamp(2.5rem,5vw,4rem);
+            font-weight:700;
+        }
+
+        .hero p{
+            color:#cbd5e1;
+            max-width:650px;
+            margin:20px auto 60px;
+            line-height:1.8;
+        }
+
+        .module-card{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+
+            height:180px;
+
+            background:rgba(255,255,255,.08);
+            backdrop-filter:blur(15px);
+
+            border:1px solid rgba(255,255,255,.1);
+            border-radius:18px;
+
+            color:#fff;
+            text-decoration:none;
+
+            transition:.35s;
+        }
+
+        .module-card:hover{
+            transform:translateY(-10px);
+            background:#2563eb;
+            color:#fff;
+            box-shadow:0 20px 40px rgba(37,99,235,.35);
+        }
+
+        .module-card i{
+            font-size:45px;
+            margin-bottom:20px;
+        }
+
+        .module-card h4{
+            font-size:22px;
+            font-weight:600;
+            margin:0;
+        }
+
+        footer{
+            margin-top:80px;
+            text-align:center;
+            color:#94a3b8;
+            padding-bottom:40px;
+        }
+
+        @media(max-width:768px){
+
+            .hero{
+                padding:60px 0;
+            }
+
+            .module-card{
+                height:160px;
+            }
+
+            footer{
+                margin-top:50px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="text-center">
+
+<h1>Programming Hero</h1>
+
+<p>
+A collection of my Programming Hero course modules, assignments,
+and practice projects. Click a module below to explore my work.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 1/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 1</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 2/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 2</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 3/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 3</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 4/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 4</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 5/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 5</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="./Module 6/" class="module-card">
+<i class="fa-solid fa-folder-open"></i>
+<h4>Module 6</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="#" class="module-card">
+<i class="fa-solid fa-plus"></i>
+<h4>Coming Soon</h4>
+</a>
+</div>
+
+<div class="col-lg-3 col-md-4 col-sm-6">
+<a href="https://github.com/" class="module-card">
+<i class="fa-brands fa-github"></i>
+<h4>GitHub</h4>
+</a>
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Kamrul • Programming Hero Journey</p>
+
+</footer>
+
+</div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
